@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Markup</title>
+</head>
+<body>
+    <div class="inputs">
+        <div class="inputs-title">
+            <h1>Inputs</h1>
+        </div>
+        <div class="success-inputs">
+            <input type="text" class="input suc" placeholder="Success">
+            <input type="text" class="input suc-user" placeholder="Success">
+            <input type="text" class="input suc-search" placeholder="Success">
+        </div>
+        <div class="error-inputs">
+            <input type="text" class="input warn" placeholder="Error">
+            <input type="text" class="input warn-cal" placeholder="Error">
+            <input type="text" class="input warn-search" placeholder="Error">
+        </div>
+    </div>
+    <div class="check-boxes_tite">
+        <h1>CheckBoxes</h1>
+    </div>
+    <div class="check-boxes">
+        <div class="toggle">
+            <input class="check-toggle" type="checkbox">
+            <span></span>
+            <div class="disabled">
+            </div>
+        </div>
+      
+        <div class="check-box">
+            <label class="container">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            
+        </div>
+        <div class="check-box" style="margin-left: 35px;">
+            <label class="container-minus">
+                <input type="checkbox" checked="checked">
+                <span class="checkmark-minus"></span>
+            </label>
+        </div>
+
+        <div class="radio" style="margin-left: 70px">
+            <label class="container-radio">
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark-radio"></span>
+            </label>
+        </div>
+
+        <div class="radio" style="margin-left: 100px">
+            <label class="container-radio">
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark-radio"></span>
+            </label>
+        </div>
+<!-- Disabled buttons  -->
+<div class="disabled" style="margin-left: 200px">
+        <h4>Disabled</h4>
+            <label class="container">
+                    <input type="checkbox" disabled>
+                    <span class="checkmark"></span>
+                    
+                    <label class="container-radio">
+                            <input type="radio" name="radio" disabled>
+                            <span class="checkmark-radio"></span>
+                    </label>
+            </label>
+            <div class="toggle" style="margin-left: 65px;">
+                <input class="check-toggle" type="checkbox" disabled>
+            </div>
+    </div>
+    <!--  /  -->
+    </div>
+
+    <!--  ******************    Table  *****************************  -->
+<div class="table-content">
+    <h1>Table</h1>
+    <table>
+            <tr>
+                <th>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                </th>
+                <th>App</th>
+                <th>Installs Generated</th>
+                <th>Created</th>
+                <th>Budget</th>
+                <th>Status</th>
+                <th></th> 
+             </tr>
+            <tr>
+                <td>
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                </td>
+                <td>
+                <div class="" style="display: flex;">
+                    <img src="./img/confide_logo.svg" alt="">
+                    <div class="app-name">
+                        <p>Confide</p>
+                        <span>Confide,Inc.</span>
+                    </div>
+                </div>
+                </td>
+                <td>
+                  <p>24.587</p>
+                  <span>Daily: 690</span>
+                </td>
+                <td>
+                    <p>17th May, 17</p>
+                </td>
+                <td>
+                    <p>$44.590</p>
+                </td>
+                <td>
+                   <div class="running-box">
+                       <span class="box-title">RUNNING</span>
+                   </div>
+                </td>
+                <td>
+                    <div class="icons-container">
+                        <a href="#">
+                            <img src="./img/pause-icon.svg" alt="pause">
+                        </a>
+                        <a href="#">
+                            <img src="./img/share-icon.svg" alt="share">
+                        </a>
+                        <a href="#">
+                            <img src="./img/refresh-icon.svg" alt="refresh">
+                        </a>
+                        <a href="#">
+                            <img src="./img/activity-icon.svg" alt="activity">
+                        </a>
+                    </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="td-active">
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                </td>
+                <td class="td-active">
+                <div class="" style="display: flex;">
+                    <img src="./img/cityMapper_logo.svg" alt="">
+                    <div class="app-name">
+                        <p>Citymapper</p>
+                        <span>Citymapper, Inc.</span>
+                    </div>
+                </div>
+                </td>
+                <td class="td-active">
+                  <p>659,439</p>
+                  <span>Daily: 14,590</span>
+                </td>
+                <td class="td-active">
+                    <p>8th Feb, 13</p>
+                </td>
+                <td class="td-active">
+                    <p>$$890,430</p>
+                </td>
+                <td class="td-active">
+                   <div class="paused-box">
+                       <span class="box-title">PAUSED</span>
+                   </div>
+                </td>
+                <td class="td-active">
+                    <div class="icons-container">
+                        <a href="#">
+                            <img src="./img/pause-icon.svg" alt="pause">
+                        </a>
+                        <a href="#">
+                            <img src="./img/share-icon.svg" alt="share">
+                        </a>
+                        <a href="#">
+                            <img src="./img/refresh-icon.svg" alt="reresh">
+                        </a>
+                        <a href="#">
+                            <img src="./img/activity-icon.svg" alt="activity">
+                        </a>
+                    </div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="bordless">
+                <label class="container">
+                    <input type="checkbox" >
+                    <span class="checkmark"></span>
+                </label>
+                </td>
+                <td class="bordless">
+                <div class="" style="display: flex;">
+                    <img src="./img/monument_logo.svg" alt="">
+                    <div class="app-name">
+                        <p>Monument Valley</p>
+                        <span>USTWO</span>
+                    </div>
+                </div>
+                </td>
+                <td class="bordless">
+                  <p>29,439,881</p>
+                  <span>Daily: 98,441</span>
+                </td>
+                <td class="bordless">
+                    <p>12th Apr, 12</p>
+                </td>
+                <td class="bordless">
+                    <p>$1,400,390</p>
+                </td>
+                <td class="bordless">
+                   <div class="paused-box">
+                       <span class="box-title">PAUSED</span>
+                   </div>
+                </td>
+                <td class="bordless">
+                    <div class="icons-container">
+                        <a href="#">
+                            <img src="./img/pause-icon.svg" alt="pause">
+                        </a>
+                        <a href="#">
+                            <img src="./img/share-icon.svg" alt="share">
+                        </a>
+                        <a href="#">
+                            <img src="./img/refresh-icon.svg" alt="refresh">
+                        </a>
+                        <a href="#">
+                            <img src="./img/activity-icon.svg" alt="activity">
+                        </a>
+                    </div>
+                </td>
+            </tr>
+    </table>
+</div>
+           
+
+
+
+</body>
+</html>
